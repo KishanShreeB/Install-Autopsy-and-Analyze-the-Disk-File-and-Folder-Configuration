@@ -1,68 +1,91 @@
-# Install Autopsy and Analyze the Disk File and Folder Configuration
+# EXP 3 : INSTALL AUTOPSY AND ANALYSIS THE DISK, FILE AND FOLDER CONFIGURATION
 
-## AIM
-To install **Autopsy** and use it to analyze the disk’s file and folder configuration for forensic investigation.
+## AIM:
+To install Autopsy software on windows operating system and analyse the file and folder configuration.
 
-## REQUIREMENTS
-- **Operating System**: Windows 10/11, macOS, or Linux
-- **Tools**:  
-  - [Autopsy Digital Forensics Platform](https://www.autopsy.com/)  
-  - Optional: Sleuth Kit CLI tools for deeper analysis
-- **Test Data**: Disk image file (`.dd`, `.img`, `.E01`)
-
-## ARCHITECTURE DIAGRAM
-```mermaid
-flowchart TD
-    A[Disk Image / Physical Drive] --> B[Install Autopsy]
-    B --> C[Create New Case in Autopsy]
-    C --> D[Add Data Source: Disk Image]
-    D --> E["Autopsy Modules Run: File System, Metadata, Keywords"]
-    E --> F[File & Folder Structure View]
-    F --> G[Export / Recover Files]
+## EQUIPMENT REQUIRED:
+● Hardware: Personal Computer (PC)
+```
+Register Number:212223100022
+Name: KISHAN SHREE B
 ```
 ## DESIGN STEPS:
 ### Step 1:
-Download Autopsy from the official website and install it on your system.
-<img width="1908" height="968" alt="image" src="https://github.com/user-attachments/assets/d9f86dc3-34e3-4e3d-80fd-6954eb24e335" />
-
+Install Autopsy using the terminal with the command:
 
 ### Step 2:
-Launch Autopsy and create a new case.
-<img width="604" height="410" alt="image" src="https://github.com/user-attachments/assets/5ae3a3ee-692d-4414-8e4b-05120d8a6e2b" />
-<img width="990" height="589" alt="image" src="https://github.com/user-attachments/assets/ec87cd34-c6bf-4598-b0d3-418cd2d72d22" />
-
-
+Launch Autopsy from the terminal or application menu and create a new case.
 
 ### Step 3:
-Add your disk image or physical drive as the data source.
+Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
-<img width="1083" height="679" alt="image" src="https://github.com/user-attachments/assets/e9b42e6d-b7a4-4455-b54d-cfc905d30349" />
-<img width="1084" height="677" alt="image" src="https://github.com/user-attachments/assets/281b8445-f659-4b60-93fb-7dfb732db51c" />
+## INSTALLATION PROCEDURE:
+### Step1:Download Autopsy
+• Visit Autopsy Official Website and download the latest version.
+
+• Double-click the downloaded file and follow the on-screen instructions.
+![Screenshot 2025-04-25 085320](https://github.com/user-attachments/assets/bae6c8c1-2d94-4639-84aa-cac512925854)
 
 
-### Step 4:
-Allow Autopsy to run its built-in ingest modules (file system analysis, hash lookup, keyword search, metadata extraction).
-<img width="1084" height="677" alt="image" src="https://github.com/user-attachments/assets/281b8445-f659-4b60-93fb-7dfb732db51c" />
-### Step 5:
-View the file and folder hierarchy in the left-hand tree panel.
+## **Implementation steps:**
 
-### Step 6:
-Export or recover files if required for the investigation.
-<img width="456" height="269" alt="image" src="https://github.com/user-attachments/assets/cec7660b-2aac-4bbd-98e8-1d6b059e3766" />
+### **1. Copy Files to the Virtual Disk**  
+- Open **File Explorer** → Go to the new drive (`D:`), where the folder created in the New Virtual Disk
+- Create a new folder or use the entire disk and then copy **images or files** into it.  
 
-## PROGRAM(Windows)
+### **2. Delete the Files**  
+- Select any one or two images → Press **Delete**.  
+- Empty the **Recycle Bin** to permanently delete them.  
 
-1. Download Autopsy from autopsy.com.
-2. Install and launch the application.
-3. Select **New Case → Name your case → Choose case folder**.
-4. Click Add **Data Source → Select Disk Image → Browse to file**.
-5. Choose ingest modules (file system, metadata, hash lookup, keyword search).
-6. Wait for processing to finish.
-7. Explore file/folder structure in the navigation pane.
-8.Export selected files for further examination.
+### **3. Recover Deleted Files Using Autopsy**  
+### **Open Autopsy & Create a New Case** 
 
-## OUTPUT:
-File and Folder Configuration Analysis Results
+- Launch **Autopsy** and **Run as a administrator**  
+- Click **Create New Case**.  
+![Screenshot 2025-04-22 214658](https://github.com/user-attachments/assets/89ed73c4-ca95-4f21-b2f1-3a5ba2b67781)
 
-## RESULT:
-Autopsy was installed successfully and used to analyze disk, file, and folder configuration for forensic investigation.
+
+- Enter a **Case Name** (e.g., `Autopsy-1`).  
+- Choose a **Case Folder** location.  
+- Click **Next** → Click **Finish**.  
+
+
+![Screenshot 2025-04-22 215824](https://github.com/user-attachments/assets/6d60e194-4850-421e-9bf9-b2c758f49d81)
+
+### **Add the Virtual Disk as an Evidence Source**  
+- Click **Add Data Source**  → **Select Host**
+![Screenshot 2025-04-22 220051](https://github.com/user-attachments/assets/749bc8d2-22f8-464f-9824-ca774c859132)
+
+
+- Select **Local Disk** → **next** 
+
+![Screenshot 2025-04-22 220110](https://github.com/user-attachments/assets/e56a9fe1-1c83-4256-aea6-16004f93e63e)
+
+
+
+- Select Disk → **Choose the VHD drive (`New Volume(E:`)**
+
+![Screenshot 2025-04-25 085756](https://github.com/user-attachments/assets/8ece4b7b-8d76-4feb-b87c-83cf128ca89b)
+
+
+
+- Click **Next** → Keep default settings → Click **Finish**.  
+- Wait for Autopsy to process the disk.  
+
+### **Recover Deleted Files**  
+- Go to **File Views** (left panel).  
+
+
+- Click **Deleted Files** → Find your deleted images.  
+- Right-click an image → Click **Extract File**.  
+
+![Screenshot 2025-04-23 134006](https://github.com/user-attachments/assets/bb9e03c6-3e37-4818-a612-d3113ca590b7)
+
+
+- Click OS Account
+
+![Screenshot 2025-04-25 090001](https://github.com/user-attachments/assets/809a4b18-877a-4b69-b2dd-d30c5e3151fe)
+
+
+## Result:
+Successfully extracted the deleted files from unallocated space using the Autospy tool.
