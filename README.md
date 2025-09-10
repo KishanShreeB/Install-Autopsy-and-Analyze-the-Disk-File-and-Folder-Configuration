@@ -23,21 +23,32 @@ flowchart TD
 ## DESIGN STEPS:
 ### Step 1:
 Download Autopsy from the official website and install it on your system.
+<img width="1908" height="968" alt="image" src="https://github.com/user-attachments/assets/d9f86dc3-34e3-4e3d-80fd-6954eb24e335" />
+
 
 ### Step 2:
 Launch Autopsy and create a new case.
+<img width="604" height="410" alt="image" src="https://github.com/user-attachments/assets/5ae3a3ee-692d-4414-8e4b-05120d8a6e2b" />
+<img width="990" height="589" alt="image" src="https://github.com/user-attachments/assets/ec87cd34-c6bf-4598-b0d3-418cd2d72d22" />
+
+
 
 ### Step 3:
 Add your disk image or physical drive as the data source.
 
+<img width="1083" height="679" alt="image" src="https://github.com/user-attachments/assets/e9b42e6d-b7a4-4455-b54d-cfc905d30349" />
+<img width="1084" height="677" alt="image" src="https://github.com/user-attachments/assets/281b8445-f659-4b60-93fb-7dfb732db51c" />
+
+
 ### Step 4:
 Allow Autopsy to run its built-in ingest modules (file system analysis, hash lookup, keyword search, metadata extraction).
-
+<img width="1084" height="677" alt="image" src="https://github.com/user-attachments/assets/281b8445-f659-4b60-93fb-7dfb732db51c" />
 ### Step 5:
 View the file and folder hierarchy in the left-hand tree panel.
 
 ### Step 6:
 Export or recover files if required for the investigation.
+<img width="456" height="269" alt="image" src="https://github.com/user-attachments/assets/cec7660b-2aac-4bbd-98e8-1d6b059e3766" />
 
 ## PROGRAM(Windows)
 
