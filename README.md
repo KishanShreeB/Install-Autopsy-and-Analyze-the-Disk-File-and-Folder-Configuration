@@ -65,8 +65,6 @@ Add a disk image or file to the case and analyze the contents such as deleted fi
 
 - Select Disk → **Choose the VHD drive (`New Volume(E:`)**
 
-![Screenshot 2025-04-25 085756](https://github.com/user-attachments/assets/8ece4b7b-8d76-4feb-b87c-83cf128ca89b)
-
 
 
 - Click **Next** → Keep default settings → Click **Finish**.  
@@ -79,7 +77,7 @@ Add a disk image or file to the case and analyze the contents such as deleted fi
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
 
-![Screenshot 2025-04-23 134006](https://github.com/user-attachments/assets/bb9e03c6-3e37-4818-a612-d3113ca590b7)
+<img width="1622" height="656" alt="image" src="https://github.com/user-attachments/assets/1257351a-3b82-44a5-9d52-1e3dd2e6473a" />
 
 
 - Click OS Account
